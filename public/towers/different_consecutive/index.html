@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Backtracking - Tower Building - No immediate repeat of colors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+
+    </script>
+</head>
+
+<body>
+    <div id="controls">
+        <label for="input_n">N (Number of colors):</label>
+        <input id="input_n" type="number" value="3">
+        <label for="input_m">M (tower height):</label>
+        <input id="input_m" type="number" value="3">
+        <button id="startButton" type="button">Start</button>
+        <button id="nextButton" type="button">Next</button>
+        <label for="input_time">Auto-Next (ms):</label>
+        <input id="input_time" type="number" value="1000">
+        <button id="startAutoButton" type="button">Start-auto</button>
+        <button id="stopAutoButton" type="button">Stop-auto</button>
+    </div>
+    <div id="possible_colors">
+        <div>Colors:</div>
+        <div>
+            0
+        </div>
+        <div>
+            1
+        </div>
+        <div>
+            2
+        </div>
+    </div>
+    <div id="content">
+        <div id="code">
+            <div id="tabs"><div class="tab">k = 0</div><div class="tab">k = 1</div></div>
+            <div id="function">
+
+            </div>
+            <div id="variables">
+
+            </div>
+        </div>
+        <div id="result">
+            <div id="tower">
+                .
+            </div>
+
+            <div id="result_array">
+                <div class="elem">
+                    <div class="index">t[0]</div>
+                    <div class="value">0</div>
+                </div>
+                <div class="elem">
+                    <div class="index">t[1]</div>
+                    <div class="value">0</div>
+                </div>
+                <div class="elem inactive">
+                    <div class="index">t[2]</div>
+                    <div class="value">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Output: </h2>
+    <div id="answers">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+* {
+    /** Base colors */
+    --clr-dark-a0: #000000;
+    --clr-light-a0: #ffffff;
+    
+    /** Theme primary colors */
+    --clr-primary-a0: #c49806;
+    --clr-primary-a10: #cda333;
+    --clr-primary-a20: #d5ae4f;
+    --clr-primary-a30: #dcb969;
+    --clr-primary-a40: #e4c481;
+    --clr-primary-a50: #ead09a;
+    
+    /** Theme surface colors */
+    --clr-surface-a0: #121212;
+    --clr-surface-a10: #282828;
+    --clr-surface-a20: #3f3f3f;
+    --clr-surface-a30: #575757;
+    --clr-surface-a40: #717171;
+    --clr-surface-a50: #8b8b8b;
+    
+    /** Theme tonal surface colors */
+    --clr-surface-tonal-a0: #221e15;
+    --clr-surface-tonal-a10: #37332a;
+    --clr-surface-tonal-a20: #4d4941;
+    --clr-surface-tonal-a30: #646059;
+    --clr-surface-tonal-a40: #7c7972;
+    --clr-surface-tonal-a50: #95928d;
+    }
+    
+body {
+    background-color: var(--clr-surface-a0);
+    color: white;
+    font-size: 1.5em;
+}
+
+#themes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.theme {
+    border-radius: 10px;
+    border: 1px solid var(--clr-primary-a0);
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.theme a {
+    color: white;
+}
